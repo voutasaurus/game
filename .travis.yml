@@ -15,4 +15,4 @@ deploy:
   script: bash scripts/deploy.sh
   on:
     branch: master
-    condition: "$TRAVIS_OS_NAME" == "linux"
+    condition: "$TRAVIS_OS_NAME == linux"
